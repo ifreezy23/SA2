@@ -25,6 +25,27 @@ header{
     justify-content: baseline;
     color: white;
 }
-.menu. {
+.menu a {
     color: white;
+}
+.search-box {
+    height: 50px;
+    width: 800px;
+    display: grid;
+    justify-content: baseline;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.banner {
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.posicionamento-banner {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
